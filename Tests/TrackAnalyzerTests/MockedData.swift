@@ -1,9 +1,3 @@
-//
-//  File.swift
-//
-//
-//
-
 import Foundation
 
 let mockedData =

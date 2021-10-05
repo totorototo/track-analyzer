@@ -1,5 +1,3 @@
-
-/// Define the potential error cases.
 enum AnalyzerError: Error {
     case emptyPoints
     case indicesOutOfBounds

@@ -1,10 +1,3 @@
-//
-//  File.swift
-//
-//
-//  Created by Gilbert, Thomas on 05/10/2021.
-//
-
 import Foundation
 
 public struct WayPoint: Equatable {

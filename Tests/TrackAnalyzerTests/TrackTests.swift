@@ -1,9 +1,3 @@
-//
-//  File.swift
-//
-//
-//
-
 @testable import TrackAnalyzer
 import XCTest
 

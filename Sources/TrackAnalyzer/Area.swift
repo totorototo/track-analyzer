@@ -1,9 +1,3 @@
-//
-//  File.swift
-//
-//
-//
-
 public struct Area: Equatable {
     public var minLongitude: Double
     public var minLatitude: Double

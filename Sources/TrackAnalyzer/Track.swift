@@ -1,12 +1,5 @@
-//
-//  File.swift
-//
-//
-//
-
 import Foundation
 
-/// Define the potential error cases.
 enum TrackError: Error {
     case emptyWayPoints
     case indicesOutOfBounds
