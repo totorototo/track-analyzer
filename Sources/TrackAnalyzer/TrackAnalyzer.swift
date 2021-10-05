@@ -10,7 +10,7 @@ enum AnalyzerError: Error {
     case outOfBounds
 }
 
-struct Analyzer {
+public struct Analyzer {
     struct Statistic {
         public let distance: Double
         public let elevation: Elevation

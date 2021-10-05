@@ -12,7 +12,7 @@ enum TrackError: Error {
     case indicesOutOfBounds
 }
 
-struct Track {
+public struct Track {
     public let wayPoints: [WayPoint]
 
     public init(wayPoints: [WayPoint]) {

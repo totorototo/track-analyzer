@@ -4,7 +4,7 @@
 //
 //
 
-struct Area: Equatable {
+public struct Area: Equatable {
     public var minLongitude: Double
     public var minLatitude: Double
     public var maxLongitude: Double
@@ -17,7 +17,7 @@ struct Area: Equatable {
         self.maxLongitude = maxLongitude
     }
 
-    static func == (lhs: Area, rhs: Area) -> Bool {
+    public static func == (lhs: Area, rhs: Area) -> Bool {
         lhs.minLatitude == rhs.minLatitude && lhs.maxLatitude == rhs.maxLatitude && lhs.minLongitude == rhs.minLongitude && lhs.maxLongitude == rhs.maxLongitude
     }
 }
