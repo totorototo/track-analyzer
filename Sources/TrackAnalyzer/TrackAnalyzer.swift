@@ -1,4 +1,4 @@
-enum AnalyzerError: Error {
+public enum AnalyzerError: Error {
     case emptyPoints
     case indicesOutOfBounds
     case pointNotFound
