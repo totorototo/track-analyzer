@@ -1,6 +1,6 @@
 import Foundation
 
-enum TrackError: Error {
+public enum TrackError: Error {
     case emptyWayPoints
     case indicesOutOfBounds
 }
